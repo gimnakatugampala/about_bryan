@@ -107,7 +107,7 @@ body.wrong {
 .footer {
   color: #fff;
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
 }
 
 /*panel*/
