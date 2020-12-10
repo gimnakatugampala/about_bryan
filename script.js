@@ -78,7 +78,6 @@ function selectAnswer(e){
             startButton.innerText = 'Finish';
             startButton.classList.remove('hide')
             score.innerText = 0;
-            return window.location.reload()
     }
 
 }
