@@ -75,7 +75,7 @@ function selectAnswer(e){
     if(shuffleQuestions.length > currentQuestionIndex + 1){
         nextButton.classList.remove('hide')
     }else{  
-            startButton.innerText = 'Finish';
+            startButton.innerText = 'Finish & Restart';
             startButton.classList.remove('hide')
             score.innerText = 0;
     }
@@ -112,183 +112,183 @@ function clearStatusClass(element){
 
 const question = [
     {
-        questions:"Bryan's Favorite Food ?",
+        questions:"His Biggest Strength ?",
         answers:[
-            {text:'Pasta',correct:false},
-            {text:'Brownie',correct:true},
-            {text:'Hamburger',correct:false},
-            {text:'Pizza',correct:false}
+            {text:'Mother',correct:true},
+            {text:'Father',correct:false},
+            {text:'Brother',correct:false},
+            {text:'Friends',correct:false}
         ]
     },
     {
-        questions:"Bryan's Favorite Movie ?",
+        questions:"His Personality ?",
         answers:[
-            {text:'The Matrix',correct:false},
-            {text:'Spenser Confidential',correct:true},
-            {text:'Avengers Endgame',correct:false},
-            {text:'Inception',correct:false},
+            {text:'Talking in a direct way',correct:true},
+            {text:'Thinking Differently',correct:false},
+            {text:'Egomeniac',correct:false},
+            {text:'Genius',correct:false},
         ]
     },
     {
-        questions:"Bryan's Favorite Place to Visit ?",
+        questions:"His Dream Job?",
         answers:[
-            {text:'Myanmar',correct:false},
-            {text:'Prague',correct:false},
-            {text:'New York',correct:false},
-            {text:'Jagro',correct:true}
+            {text:'Economist',correct:false},
+            {text:'Enterprenur',correct:false},
+            {text:'CEO of Company',correct:false},
+            {text:'Defense Officer',correct:true}
         ]
     },
     {
-        questions:"Bryan's Favorite Vehicle Brand ?",
+        questions:"One Person he Can't live Without ?",
         answers:[
-            {text:'Tesla',correct:false},
-            {text:'RAM Cab',correct:true},
-            {text:'Toyota',correct:false},
-            {text:'Honda',correct:false}
+            {text:'Father',correct:false},
+            {text:'Mother',correct:true},
+            {text:'Brother',correct:false},
+            {text:'None of the above',correct:false}
         ]
     },
     {
-        questions:"Bryan's Favorite Drink ?",
+        questions:"Nickname that he got during A/Ls ?",
         answers:[
-            {text:'Milkshake',correct:false},
-            {text:'Ice Coffee',correct:false},
-            {text:'Orange Juice',correct:false},
-            {text:'Faluda',correct:true}
+            {text:'Akash Walker',correct:true},
+            {text:'Security Akash',correct:false},
+            {text:'Nikie Akash',correct:false},
+            {text:'None of the above',correct:false}
         ]
     },
     {
-        questions:"Bryan's Favorite Mobile App ?",
+        questions:"Greatest Era of his School Life ?",
         answers:[
-            {text:'Facebook',correct:true},
-            {text:'Instagram',correct:false},
-            {text:'Whatsapp',correct:false},
-            {text:'PUBG',correct:false}
+            {text:'2013 - 2018',correct:true},
+            {text:'2018 - 2019',correct:false},
+            {text:'2011 -2013',correct:false},
+            {text:'2008 - 2010',correct:false}
         ]
     },
     {
-        questions:"Bryan's Most Visited Website ?",
+        questions:"A gift you think he has ?",
         answers:[
-            {text:'Porn Hub',correct:false},
-            {text:'Wikipedia',correct:true},
-            {text:'Google',correct:false},
-            {text:'Horapusa(By Sahasra)',correct:false}
+            {text:'Love and Care for friends',correct:true},
+            {text:'Great Competetor',correct:false},
+            {text:'Focused',correct:false},
+            {text:'Genius',correct:false}
         ]
     },
     {
-        questions:"Bryan's Favorite School Subject ?",
+        questions:"His Current Job ?",
         answers:[
-            {text:'Acounting',correct:false},
-            {text:'Economics',correct:false},
-            {text:'Combined Maths',correct:false},
-            {text:'Bussiness Studies',correct:true}
+            {text:'Student at Seagis',correct:true},
+            {text:'Student at UCL',correct:false},
+            {text:'Student at SLIIT',correct:false},
+            {text:'Student at NSBM',correct:false}
         ]
     },
     {
-        questions:"Bryan's Dream Job ?",
+        questions:"His Current Relationship Status ?",
         answers:[
-            {text:'Chairman of a Company',correct:true},
-            {text:'CEO of a Company',correct:false},
-            {text:'COO of a Company',correct:false},
-            {text:'CFO of a Company',correct:false}
+            {text:'Single',correct:true},
+            {text:'In a Relationship',correct:false},
+            {text:'Married',correct:false},
+            {text:'Have no idea',correct:false}
         ]
     },
     {
-        questions:"What Industry Bryan is Passionate about ?",
+        questions:"A Schoolmate that makes him laugh ?",
         answers:[
-            {text:'Technology',correct:false},
-            {text:'Finance and Stock Market',correct:true},
+            {text:'Nikie Munaj',correct:false},
+            {text:'Roshan Murugan',correct:true},
+            {text:'Azmi Kamil',correct:false},
+            {text:'Bryan De Silva',correct:false}
+        ]
+    },
+    {
+        questions:"His Worst Habbit ?",
+        answers:[
+            {text:'Gets Angry too quicky',correct:true},
+            {text:'Gets Emotional too quicky',correct:false},
+            {text:'Says "YES" to everything',correct:false},
+            {text:'Biting Nails',correct:false}
+        ]
+    },
+    {
+        questions:"Schoolmates that lecture him?",
+        answers:[
+            {text:'Munaj and Azmi',correct:false},
+            {text:'Aadhil and Teran',correct:false},
+            {text:'Bryan and Migara',correct:true},
+            {text:'Saduni and Sahassrika',correct:false}
+        ]
+    },
+    {
+        questions:"Schoolmates that inspire him ?",
+        answers:[
+            {text:'Sandro and Azeeza',correct:false},
+            {text:'Adhya and Kaw',correct:false},
+            {text:'Sahasra and Roshan',correct:false},
+            {text:'Aadhil and Teran',correct:true}
+        ]
+    },
+    {
+        questions:"Favorite People he like to be around?",
+        answers:[
+            {text:'Adhya and Sahasra',correct:false},
+            {text:'Azeeza and Aadhil',correct:true},
+            {text:'Sahassrika and Migara',correct:false},
+            {text:'Sanduni and Bryan',correct:false}
+        ]
+    },
+    {
+        questions:"Famous People that inspire him ?",
+        answers:[
+            {text:'Mark Cuban and Elon Musk',correct:false},
+            {text:'Warren Buffet and Donald Trump',correct:false},
+            {text:'Mark Zuckerberg and Jack Ma',correct:true},
+            {text:'Jeff Bezos and Larry Page',correct:false}
+        ]
+    },
+    {
+        questions:"Most Used App?",
+        answers:[
+            {text:'Youtube',correct:true},
+            {text:'Spotify',correct:false},
+            {text:'Netflix',correct:false},
+            {text:'Instagram',correct:false}
+        ]
+    },
+    {
+        questions:"Most Visited Website?",
+        answers:[
+            {text:'google.com',correct:false},
+            {text:'youtube.com',correct:false},
+            {text:'asiangrammar.lk',correct:true},
+            {text:'facebook.com',correct:false}
+        ]
+    },
+    {
+        questions:"An Industry he is passionate about ?",
+        answers:[
+            {text:'Space',correct:false},
+            {text:'Bussiness Development',correct:true},
             {text:'Energy',correct:false},
-            {text:'Space',correct:false}
+            {text:'Finance',correct:false}
         ]
     },
     {
-        questions:"How many Cousin(s) does Bryan has?",
+        questions:"Favorite Subjects ?",
         answers:[
-            {text:'13',correct:true},
-            {text:'22',correct:false},
-            {text:'10',correct:false},
-            {text:'15',correct:false}
+            {text:'Biology and Chemistry',correct:true},
+            {text:'Eonomics and Bussiness Studies',correct:false},
+            {text:'IT and Accounting',correct:false},
+            {text:'Physics an Com.Maths',correct:false}
         ]
     },
     {
-        questions:"How many Sibling(s) does Bryan has?",
+        questions:"Best Day of his life ?",
         answers:[
-            {text:'1',correct:false},
-            {text:'4',correct:false},
-            {text:'2',correct:true},
-            {text:'3',correct:false}
-        ]
-    },
-    {
-        questions:"Where does Bryan live ?",
-        answers:[
-            {text:'IDH',correct:false},
-            {text:'Kotikawatte',correct:false},
-            {text:'Borella',correct:false},
-            {text:'Athul Kotte',correct:true}
-        ]
-    },
-    {
-        questions:"Bryan's Current occupation?",
-        answers:[
-            {text:'Teacher',correct:false},
-            {text:'Pol Kadanawa',correct:true},
-            {text:'Student',correct:false},
-            {text:'Vehicle Dealer',correct:false}
-        ]
-    },
-    {
-        questions:"Bryan's Life Goal ?",
-        answers:[
-            {text:'Make as many kids as possible',correct:false},
-            {text:'Build a Legacy',correct:false},
-            {text:'To archive the financial freedom',correct:true},
-            {text:'Be a Socialist',correct:false}
-        ]
-    },
-    {
-        questions:"Famous People who have inspired him?",
-        answers:[
-            {text:'Mark Cuban and Tom Hardy',correct:true},
-            {text:'GaryVee and Simon Sinek',correct:false},
-            {text:'Donald Trump and Steve Jobs',correct:false},
-            {text:'Robert Downey Jr and Mohommad Ali',correct:false}
-        ]
-    },
-    {
-        questions:"A Classmate who inspired him?",
-        answers:[
-            {text:'Murugan',correct:false},
-            {text:'Sanduni',correct:false},
-            {text:'Migara',correct:true},
-            {text:'Kawmini',correct:false}
-        ]
-    },
-    {
-        questions:"A Classmate who makes him laugh?",
-        answers:[
-            {text:'Sahasra Pansilu',correct:false},
-            {text:'Murugan Roshan',correct:true},
-            {text:'Azmi kamil',correct:false},
-            {text:'Akash Walker',correct:false}
-        ]
-    },
-    {
-        questions:"A Classmate who Educates him?",
-        answers:[
-            {text:'Aadhil',correct:true},
-            {text:'Teran',correct:false},
-            {text:'Munaj',correct:false},
-            {text:'Migara',correct:false}
-        ]
-    },
-    {
-        questions:"His Greatest School Memory ?",
-        answers:[
-            {text:'O/L',correct:false},
-            {text:'Between Grade 4 - 7',correct:false},
-            {text:'A/L',correct:true},
-            {text:'Between Grade 8 - 10',correct:false}
+            {text:'First day of O/L',correct:false},
+            {text:'First day of School',correct:false},
+            {text:'First day of A/L',correct:true},
+            {text:'Last day of School',correct:false}
         ]
     },
 ]
